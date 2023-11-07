@@ -1,5 +1,7 @@
-f = open('d1.txt',encoding='utf8')
+f = open('d1-sample.txt',encoding='utf8')
+# f = open('d1.txt',encoding='utf8')
 full = f.read()
+f.close()
 
 def pack(s):
     lst = s.split('\n')
@@ -16,6 +18,5 @@ def part2():
     ls.sort(reverse=True)
     print(sum(ls[0:3]))
 
-part1()
-part2()
-f.close()
+part1() # except 24000
+part2() # except 45000
