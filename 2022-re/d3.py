@@ -1,5 +1,5 @@
-# f = open('d3-sample.txt',encoding='utf8')
-f = open('d3.txt',encoding='utf8')
+f = open('d3-sample.txt',encoding='utf8')
+# f = open('d3.txt',encoding='utf8')
 lns = f.readlines()
 lns = list(map(str.strip, lns)) # 去除結尾換行
 f.close()
